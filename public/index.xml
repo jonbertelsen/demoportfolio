@@ -9,7 +9,17 @@
     <managingEditor>jones@ek.dk (Jon Bertelsen)</managingEditor>
     <webMaster>jones@ek.dk (Jon Bertelsen)</webMaster>
     <copyright>© 2026 Jon Bertelsen</copyright>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Delphi Project Description</title>
+      <link>http://localhost:1313/demoportfolio/posts/delphi/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/posts/delphi/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Project Ideas</title>
