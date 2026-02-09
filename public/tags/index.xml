@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Blowfish</title>
+    <title>Tags on Jons Portfolio</title>
     <link>http://localhost:1313/demoportfolio/tags/</link>
-    <description>Recent content in Tags on Blowfish</description>
+    <description>Recent content in Tags on Jons Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>jones@ek.dk (Jon Bertelsen)</managingEditor>
     <webMaster>jones@ek.dk (Jon Bertelsen)</webMaster>
     <copyright>© 2026 Jon Bertelsen</copyright>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Delphi</title>
       <link>http://localhost:1313/demoportfolio/tags/delphi/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/tags/delphi/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Java</title>
       <link>http://localhost:1313/demoportfolio/tags/java/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/tags/java/</guid>
       <description></description>
@@ -34,7 +34,7 @@
     <item>
       <title>Javalin</title>
       <link>http://localhost:1313/demoportfolio/tags/javalin/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/tags/javalin/</guid>
       <description></description>
@@ -44,9 +44,29 @@
     <item>
       <title>Webapp</title>
       <link>http://localhost:1313/demoportfolio/tags/webapp/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/tags/webapp/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/demoportfolio/tags/markdown/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/tags/markdown/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/demoportfolio/tags/tutorial/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/tags/tutorial/</guid>
       <description></description>
       
     </item>

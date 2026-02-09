@@ -2,16 +2,16 @@
 none = "none"
 
 [[main]]
-name = "Blog Posts"
+name = "Posts"
 pageRef = "posts"
 identifier = "ZIxgIcoXld"
-weight = 9_999
+weight = 1
 
 [[main]]
 name = "About"
 url = "/about"
 identifier = "soIZA0asbA"
-weight = 9_999
+weight = 2
 
 [[footer]]
 none = "none"

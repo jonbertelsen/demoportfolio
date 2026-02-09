@@ -1,0 +1,309 @@
+
+<?plantuml 1.2026.2beta3?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    contentStyleType="text/css" data-diagram-type="CLASS" height="703px" preserveAspectRatio="none"
+    style="width:1375px;height:703px;background:#FFFFFF;" version="1.1" viewBox="0 0 1375 703"
+    width="1375px" zoomAndPan="magnify">
+    <defs />
+    <g><!--class
+        STUDY-->
+        <g class="entity" data-qualified-name="STUDY" data-source-line="6" id="ent0002">
+            <rect fill="#F1F1F1" height="156.375" rx="2.5" ry="2.5"
+                style="stroke:#181818;stroke-width:0.5;" width="324.9355" x="394.03" y="7" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="47.0176" x="532.989" y="24.9951">STUDY</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="395.03" x2="717.9655" y1="33.2969"
+                y2="33.2969" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="112.7314" x="400.03" y="50.292">+id : UUID &#171;PK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="82.7695" x="400.03" y="66.5889">title : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="122.3975" x="400.03" y="82.8857">description : Text</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="101.3428" x="400.03" y="99.1826">scale_min : int</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="105.4443" x="400.03" y="115.4795">scale_max : int</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="312.9355" x="400.03" y="131.7764">status : String ' DRAFT | ACTIVE |
+                ARCHIVED</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="166.8994" x="400.03" y="148.0732">created_at : Timestamp</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="395.03" x2="717.9655" y1="155.375"
+                y2="155.375" />
+        </g><!--class
+        ROUND-->
+        <g class="entity" data-qualified-name="ROUND" data-source-line="16" id="ent0003">
+            <rect fill="#F1F1F1" height="140.0781" rx="2.5" ry="2.5"
+                style="stroke:#181818;stroke-width:0.5;" width="406.9873" x="7" y="223.37" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="52.2471" x="184.3701" y="241.3651">ROUND</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="412.9873" y1="249.6669"
+                y2="249.6669" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="112.7314" x="13" y="266.662">+id : UUID &#171;PK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="146.4395" x="13" y="282.9589">study_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="134.4629" x="13" y="299.2557">round_number : int</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="394.9873" x="13" y="315.5526">status : String ' DRAFT | OPEN | CLOSED |
+                SUMMARIZED</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="162.9277" x="13" y="331.8495">opens_at : Timestamp?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="164.0488" x="13" y="348.1464">closes_at : Timestamp?</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="412.9873" y1="355.4481"
+                y2="355.4481" />
+        </g><!--class
+        STATEMENT-->
+        <g class="entity" data-qualified-name="STATEMENT" data-source-line="25" id="ent0004">
+            <rect fill="#F1F1F1" height="140.0781" rx="2.5" ry="2.5"
+                style="stroke:#181818;stroke-width:0.5;" width="215.7246" x="448.63" y="223.37" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="84.3623" x="514.3112" y="241.3651">STATEMENT</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="449.63" x2="663.3546" y1="249.6669"
+                y2="249.6669" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="112.7314" x="454.63" y="266.662">+id : UUID &#171;PK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="146.4395" x="454.63" y="282.9589">study_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="203.7246" x="454.63" y="299.2557">code : String ' e.g. POS_01</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="72.4336" x="454.63" y="315.5526">text : Text</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="124.7012" x="454.63" y="331.8495">category : String?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="130.3271" x="454.63" y="348.1464">is_active : boolean</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="449.63" x2="663.3546" y1="355.4481"
+                y2="355.4481" />
+        </g><!--class
+        PARTICIPANT-->
+        <g class="entity" data-qualified-name="PARTICIPANT" data-source-line="34" id="ent0005">
+            <rect fill="#F1F1F1" height="140.0781" rx="2.5" ry="2.5"
+                style="stroke:#181818;stroke-width:0.5;" width="193.7061" x="1174.64" y="223.37" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="91.376" x="1225.805" y="241.3651">PARTICIPANT</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1175.64" x2="1367.3461" y1="249.6669"
+                y2="249.6669" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="112.7314" x="1180.64" y="266.662">+id : UUID &#171;PK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="146.4395" x="1180.64" y="282.9589">study_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="95.0605" x="1180.64" y="299.2557">alias : String?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="181.7061" x="1180.64" y="315.5526">invite_token_hash : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="166.8994" x="1180.64" y="331.8495">created_at : Timestamp</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="130.3271" x="1180.64" y="348.1464">is_active : boolean</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1175.64" x2="1367.3461" y1="355.4481"
+                y2="355.4481" />
+        </g><!--class
+        RESPONSE-->
+        <g class="entity" data-qualified-name="RESPONSE" data-source-line="43" id="ent0006">
+            <rect fill="#F1F1F1" height="172.6719" rx="2.5" ry="2.5"
+                style="stroke:#181818;stroke-width:0.5;" width="195.627" x="605.68" y="423.45" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="75.127" x="665.93" y="441.4451">RESPONSE</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="606.68" x2="800.307" y1="449.7469"
+                y2="449.7469" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="112.7314" x="611.68" y="466.742">+id : UUID &#171;PK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="183.627" x="611.68" y="483.0389">participant_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="148.5654" x="611.68" y="499.3357">round_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="179.6895" x="611.68" y="515.6326">statement_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="73.3428" x="611.68" y="531.9295">rating : int</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="118.501" x="611.68" y="548.2264">comment : Text?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="166.8994" x="611.68" y="564.5232">created_at : Timestamp</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="171.4795" x="611.68" y="580.8201">updated_at : Timestamp</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="606.68" x2="800.307" y1="588.1219"
+                y2="588.1219" />
+        </g><!--class
+        STATEMENT_SUMMARY-->
+        <g class="entity" data-qualified-name="STATEMENT_SUMMARY" data-source-line="54" id="ent0007">
+            <rect fill="#F1F1F1" height="172.6719" rx="2.5" ry="2.5"
+                style="stroke:#181818;stroke-width:0.5;" width="197.5752" x="111.71" y="423.45" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="162.5107" x="129.2422" y="441.4451">STATEMENT_SUMMARY</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="112.71" x2="308.2852" y1="449.7469"
+                y2="449.7469" />
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="112.7314" x="117.71" y="466.742">+id : UUID &#171;PK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="148.5654" x="117.71" y="483.0389">round_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="179.6895" x="117.71" y="499.3357">statement_id : UUID &#171;FK&#187;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="118.9316" x="117.71" y="515.6326">n_responses : int</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="115.9443" x="117.71" y="531.9295">mean : decimal?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="128.7207" x="117.71" y="548.2264">median : decimal?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="94.7734" x="117.71" y="564.5232">iqr : decimal?</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing"
+                textLength="185.5752" x="117.71" y="580.8201">generated_at : Timestamp</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="112.71" x2="308.2852" y1="588.1219"
+                y2="588.1219" />
+        </g>
+        <g class="entity" data-qualified-name="GMN16" data-source-line="79" id="ent0017">
+            <path
+                d="M905.02,280.85 L905.02,305.9828 L1139.9678,305.9828 L1139.9678,290.85 L1129.9678,280.85 L905.02,280.85"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <path d="M1129.9678,280.85 L1129.9678,290.85 L1139.9678,290.85 L1129.9678,280.85"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="213.9478" x="911.02" y="297.9169">Unique(study_id, round_number)</text>
+        </g>
+        <g class="entity" data-qualified-name="GMN19" data-source-line="83" id="ent0020">
+            <path
+                d="M698.98,280.85 L698.98,290.39 L664.82,294.39 L698.98,298.39 L698.98,305.9828 A0,0 0 0 0 698.98,305.9828 L870.0132,305.9828 A0,0 0 0 0 870.0132,305.9828 L870.0132,290.85 L860.0132,280.85 L698.98,280.85 A0,0 0 0 0 698.98,280.85"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <path d="M860.0132,280.85 L860.0132,290.85 L870.0132,290.85 L860.0132,280.85"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="150.0332" x="704.98" y="297.9169">Unique(study_id, code)</text>
+        </g>
+        <g class="entity" data-qualified-name="GMN22" data-source-line="87" id="ent0023">
+            <path
+                d="M416.02,656.12 L416.02,696.3856 A0,0 0 0 0 416.02,696.3856 L990.9609,696.3856 A0,0 0 0 0 990.9609,696.3856 L990.9609,666.12 L980.9609,656.12 L707.49,656.12 L703.49,596.44 L699.49,656.12 L416.02,656.12 A0,0 0 0 0 416.02,656.12"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <path d="M980.9609,656.12 L980.9609,666.12 L990.9609,666.12 L980.9609,656.12"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="303.1641" x="422.02" y="673.1869">Unique(participant_id, round_id,
+                statement_id)</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="553.9409" x="422.02" y="688.3197">Check(rating between STUDY.scale_min
+                and STUDY.scale_max) (enforced in app/DB)</text>
+        </g>
+        <g class="entity" data-qualified-name="GMN25" data-source-line="92" id="ent0026">
+            <path
+                d="M344.02,497.22 L344.02,506.39 L309.53,510.39 L344.02,514.39 L344.02,522.3528 A0,0 0 0 0 344.02,522.3528 L570.9697,522.3528 A0,0 0 0 0 570.9697,522.3528 L570.9697,507.22 L560.9697,497.22 L344.02,497.22 A0,0 0 0 0 344.02,497.22"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <path d="M560.9697,497.22 L560.9697,507.22 L570.9697,507.22 L560.9697,497.22"
+                fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="205.9497" x="350.02" y="514.2869">Unique(round_id, statement_id)</text>
+        </g><!--link
+        STUDY to ROUND-->
+        <g class="link" data-entity-1="ent0002" data-entity-2="ent0003" data-link-type="association"
+            data-source-line="66" id="lnk8">
+            <path codeLine="66" d="M404.01,163.61 C404.01,183.09 404.01,203.86 404.01,222.93"
+                fill="none" id="STUDY-ROUND" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="22.9785" x="405.01" y="189.3369">has</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="382.0849" y="183.3353">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="398.929" y="212.3274">0..*</text>
+        </g><!--link
+        STUDY to STATEMENT-->
+        <g class="link" data-entity-1="ent0002" data-entity-2="ent0004" data-link-type="association"
+            data-source-line="67" id="lnk9">
+            <path codeLine="67" d="M556.49,163.61 C556.49,183.09 556.49,203.86 556.49,222.93"
+                fill="none" id="STUDY-STATEMENT" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="47.4487" x="557.49" y="189.3369">defines</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="548.1451" y="183.3353">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="532.3595" y="212.3274">0..*</text>
+        </g><!--link
+        STUDY to PARTICIPANT-->
+        <g class="link" data-entity-1="ent0002" data-entity-2="ent0005" data-link-type="association"
+            data-source-line="68" id="lnk10">
+            <path codeLine="68"
+                d="M708.97,163.4 C708.97,206.92 708.97,252.39 708.97,252.39 C708.97,252.39 1013.15,252.39 1174.15,252.39"
+                fill="none" id="STUDY-PARTICIPANT" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="53.8726" x="843.07" y="248.4569">includes</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="714.6698" y="183.3746">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="1143.4982" y="246.0501">0..*</text>
+        </g><!--link
+        ROUND to RESPONSE-->
+        <g class="link" data-entity-1="ent0003" data-entity-2="ent0006" data-link-type="association"
+            data-source-line="70" id="lnk11">
+            <path codeLine="70"
+                d="M390.66,363.65 C390.66,404.65 390.66,448.39 390.66,448.39 C390.66,448.39 513.63,448.39 605.37,448.39"
+                fill="none" id="ROUND-RESPONSE" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="49.3403" x="405.65" y="444.4569">collects</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="400.8411" y="383.7408">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="574.6634" y="440.6173">0..*</text>
+        </g><!--link
+        STATEMENT to RESPONSE-->
+        <g class="link" data-entity-1="ent0004" data-entity-2="ent0006" data-link-type="association"
+            data-source-line="71" id="lnk12">
+            <path codeLine="71" d="M635.02,363.66 C635.02,382.67 635.02,403.46 635.02,423.24"
+                fill="none" id="STATEMENT-RESPONSE" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="85.6489" x="636.02" y="389.5169">answered_by</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="634.7196" y="383.7518">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="605.3987" y="412.5242">0..*</text>
+        </g><!--link
+        PARTICIPANT to RESPONSE-->
+        <g class="link" data-entity-1="ent0005" data-entity-2="ent0006" data-link-type="association"
+            data-source-line="72" id="lnk13">
+            <path codeLine="72"
+                d="M1174.35,335.39 C1023.51,335.39 750.14,335.39 750.14,335.39 C750.14,335.39 750.14,379.33 750.14,423.1"
+                fill="none" id="PARTICIPANT-RESPONSE" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="51.4097" x="866.39" y="331.4569">submits</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="1158.301" y="335.2099">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="730.052" y="412.3726">0..*</text>
+        </g><!--link
+        ROUND to STATEMENT_SUMMARY-->
+        <g class="link" data-entity-1="ent0003" data-entity-2="ent0007" data-link-type="association"
+            data-source-line="74" id="lnk14">
+            <path codeLine="74" d="M210.49,363.66 C210.49,382.67 210.49,403.46 210.49,423.24"
+                fill="none" id="ROUND-STATEMENT_SUMMARY" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="78.8569" x="211.49" y="389.5169">summarizes</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="202.0911" y="383.7518">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="186.5385" y="412.5242">0..*</text>
+        </g><!--link
+        STATEMENT to STATEMENT_SUMMARY-->
+        <g class="link" data-entity-1="ent0004" data-entity-2="ent0007" data-link-type="association"
+            data-source-line="75" id="lnk15">
+            <path codeLine="75"
+                d="M509.8,363.77 C509.8,414.25 509.8,473.39 509.8,473.39 C509.8,473.39 396.87,473.39 309.74,473.39"
+                fill="none" id="STATEMENT-STATEMENT_SUMMARY" style="stroke:#181818;stroke-width:1;" />
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="93.7295" x="370.58" y="469.4569">aggregated_in</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="8.271" x="496.8233" y="383.5079">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing"
+                textLength="23.0356" x="317.1817" y="467.5121">0..*</text>
+        </g><!--link
+        ROUND to GMN16-->
+        <g class="link" data-entity-1="ent0003" data-entity-2="ent0017" data-link-type="association"
+            data-source-line="79" id="lnk18">
+            <path
+                d="M367.34,363.82 C367.34,380.92 367.34,394.39 367.34,394.39 C367.34,394.39 947.99,394.39 947.99,394.39 C947.99,394.39 947.99,333.37 947.99,306.2"
+                fill="none" id="ROUND-GMN16"
+                style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;" />
+        </g>
+        <?plantuml-src dLLBSzem4BxxLsYu1Dg4fjTC9XaApfHf4nXiEjDUF49UZ2Qov4Zh9FJntxi2pDjfcfEbVNxQ_NOzaoam8QrG4BXxgGjkUSwKr83p0fYnE3DR2g6uSnr4AoSbGbyO7ScVmCw3u8ITdPsnKAD42SvVWeKnY-9nxplx5J3sNgRiWet7_Hwxl1n-kReY6Pah86b48NL6WXISiB90QJI9OtX64Zh15IIvz2AfjoJyUID1ZgLRXsBiXFL6dPkO_MQTRjp_5lh3gFkPJZqo5nOuGffmz6ba3kIV5y6VO0LxD1ZVzMfXEopJURAjk5agh2brckWodu1z3RJ1CBoZJ_Vh80fxT8Z6jxUTKV_70gCfGBizXDSUkp8E3XLhx57SYSFRy2x-V_p2fB05b7ciqCxQR3Y8alEFlcFKaard11KnCtQ-zl7u964JA1zzf8an2hZUW1jsHd6_snzstWAFAydTRYxzA14IDFUWanbtisqorJJv7mX7OJGSt4LXBJoQ1PH25bnZFGUEA3mF88SQBuw-v1LdXCczvQhIroyzfYpI5wcyfaEoP5VzDBuDkKuikC9eukGQVauLfKiAGkPSNIyagToNoGUxAyX0Wwrvp7B3Z41nlnpSJ1QEDOKrJoUEJOr1zYWvoqk5ib3K7R-6MeizjDn0ZOyDkh76URlzhh4Qxmj6Z3cgtuoGnpUbVNZSRflD_kr2bRJ1Wc0PVozdnQiBwgvI8D37hFBKsdBjdi1IIIRpO3jThOCh9xd46X27PF0EUSujBV9wFCVSU9PPo1RTahhgpzZ1j5JqGEtGSY83DOb6LXkisk6FpCfiXinCbuq8nbe-bD2ivlvqPu-s0j3f8aAmvxn6THZ0Bx83nub1DFaYxQfSbUFkI9-k9-5qX_gje3i3STzSpUe4y0b0BtznxSrFYbFM7Hb_Rh4cwAcn0bBcBOhYG-_JAnvMbRl2MOUh2lGN?>
+    </g>
+</svg>

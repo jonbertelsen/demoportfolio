@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jon-Bertelsen on Blowfish</title>
+    <title>Jon-Bertelsen on Jons Portfolio</title>
     <link>http://localhost:1313/demoportfolio/authors/jon-bertelsen/</link>
-    <description>Recent content in Jon-Bertelsen on Blowfish</description>
+    <description>Recent content in Jon-Bertelsen on Jons Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>jones@ek.dk (Jon Bertelsen)</managingEditor>
     <webMaster>jones@ek.dk (Jon Bertelsen)</webMaster>
     <copyright>© 2026 Jon Bertelsen</copyright>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/authors/jon-bertelsen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/authors/jon-bertelsen/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Project Ideas</title>
+      <title>Delphi Project Description</title>
       <link>http://localhost:1313/demoportfolio/posts/delphi/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/posts/delphi/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/demoportfolio/posts/delphi/feature.jpg" />
     </item>
     
     <item>
-      <title>Project Ideas</title>
-      <link>http://localhost:1313/demoportfolio/posts/project-ideas/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Markdown</title>
+      <link>http://localhost:1313/demoportfolio/posts/markdown/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
-      <guid>http://localhost:1313/demoportfolio/posts/project-ideas/</guid>
+      <guid>http://localhost:1313/demoportfolio/posts/markdown/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/demoportfolio/posts/markdown/feature.webp" />
     </item>
     
   </channel>

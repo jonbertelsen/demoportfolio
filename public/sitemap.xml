@@ -3,31 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/demoportfolio/posts/delphi/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/demoportfolio/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/demoportfolio/posts/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/demoportfolio/posts/delphi/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/demoportfolio/posts/project-ideas/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/demoportfolio/about/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/demoportfolio/posts/markdown/</loc>
+    <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

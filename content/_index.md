@@ -2,4 +2,4 @@
 title: "Forside"
 ---
 
-Her er forsiden
+Welcome to my portfolio site.

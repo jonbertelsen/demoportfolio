@@ -2,15 +2,20 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Jons Portfolio"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
+#logo = "images/profile/ek.png"
 
 ["params.author"]
 name = "Jon Bertelsen"
+image = "images/profile/jonbertelsen_kw_400.jpg"
 email = "jones@ek.dk"
-headline = "Jons Portfolio"
+headline = "Lecturer at EK"
+links = [
+  { linkedin = "https://www.linkedin.com/in/jonbertelsen/" }
+]
