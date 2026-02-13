@@ -9,7 +9,7 @@
     <managingEditor>jones@ek.dk (Jon Bertelsen)</managingEditor>
     <webMaster>jones@ek.dk (Jon Bertelsen)</webMaster>
     <copyright>© 2026 Jon Bertelsen</copyright>
-    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Delphi Project Description</title>
@@ -18,7 +18,17 @@
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/posts/delphi/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/demoportfolio/posts/delphi/feature.jpg" />
+      
+    </item>
+    
+    <item>
+      <title>Plan and Estimate</title>
+      <link>http://localhost:1313/demoportfolio/posts/delphi-plan-estimate/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/posts/delphi-plan-estimate/</guid>
+      <description></description>
+      
     </item>
     
     <item>
@@ -28,7 +38,7 @@
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/posts/markdown/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/demoportfolio/posts/markdown/feature.webp" />
+      
     </item>
     
   </channel>

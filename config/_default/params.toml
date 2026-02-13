@@ -22,6 +22,9 @@ verification = { }
 rssnext = { }
 advertisement = { }
 
+[assets]
+customCSS = ["css/custom.css"]
+
 [header]
 layout = "fixed"
 

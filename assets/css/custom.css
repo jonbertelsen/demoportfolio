@@ -1,0 +1,77 @@
+/* -----------------------------------
+   Float-based image utilities
+   ----------------------------------- */
+
+/* 25% */
+figure.fourth-right {
+  float: right;
+  width: 25%;
+  margin: 0 0 1rem 1rem;
+}
+
+figure.fourth-left {
+  float: left;
+  width: 25%;
+  margin: 0 1rem 1rem 0;
+}
+
+/* 33% */
+figure.third-right {
+  float: right;
+  width: 33.333%;
+  margin: 0 0 1rem 1rem;
+}
+
+figure.third-left {
+  float: left;
+  width: 33.333%;
+  margin: 0 1rem 1rem 0;
+}
+
+figure.third-center {
+  width: 33.333%;
+  margin: 1.5rem auto;
+}
+
+/* 50% */
+figure.half-center {
+  width: 50%;
+  margin: 1.5rem auto;
+}
+
+/* -----------------------------------
+   Make image fit the figure box
+   ----------------------------------- */
+figure.fourth-right img,
+figure.fourth-left img,
+figure.third-right img,
+figure.third-left img,
+figure.third-center img,
+figure.half-center img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* -----------------------------------
+   Mobile: stack everything
+   ----------------------------------- */
+@media (max-width: 768px) {
+  figure.fourth-left,
+  figure.fourth-right,
+  figure.third-left,
+  figure.third-right,
+  figure.third-center,
+  figure.half-center {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+/* -----------------------------------
+   Utility
+   ----------------------------------- */
+.clear {
+  clear: both;
+}

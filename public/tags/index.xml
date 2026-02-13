@@ -9,14 +9,44 @@
     <managingEditor>jones@ek.dk (Jon Bertelsen)</managingEditor>
     <webMaster>jones@ek.dk (Jon Bertelsen)</webMaster>
     <copyright>© 2026 Jon Bertelsen</copyright>
-    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agile</title>
+      <link>http://localhost:1313/demoportfolio/tags/agile/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/tags/agile/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Delphi</title>
       <link>http://localhost:1313/demoportfolio/tags/delphi/</link>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/tags/delphi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Estimation</title>
+      <link>http://localhost:1313/demoportfolio/tags/estimation/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/tags/estimation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>http://localhost:1313/demoportfolio/tags/planning/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/tags/planning/</guid>
       <description></description>
       
     </item>
