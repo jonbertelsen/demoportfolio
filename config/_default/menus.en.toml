@@ -2,15 +2,15 @@
 none = "none"
 
 [[main]]
-name = "Posts"
-pageRef = "posts"
-identifier = "ZIxgIcoXld"
-weight = 1
-
-[[main]]
 name = "About"
 url = "/about"
 identifier = "soIZA0asbA"
+weight = 1
+
+[[main]]
+name = "Posts"
+pageRef = "posts"
+identifier = "ZIxgIcoXld"
 weight = 2
 
 [[footer]]
