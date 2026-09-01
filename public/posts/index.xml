@@ -9,7 +9,7 @@
     <managingEditor>jones@ek.dk (Jon Bertelsen)</managingEditor>
     <webMaster>jones@ek.dk (Jon Bertelsen)</webMaster>
     <copyright>© 2026 Jon Bertelsen</copyright>
-    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/demoportfolio/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Delphi Project Description</title>
@@ -32,11 +32,21 @@
     </item>
     
     <item>
-      <title>Markdown</title>
+      <title>Markdown for datamatikerstuderende</title>
       <link>http://localhost:1313/demoportfolio/posts/markdown/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>jones@ek.dk (Jon Bertelsen)</author>
       <guid>http://localhost:1313/demoportfolio/posts/markdown/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dette er et test blogindlæg</title>
+      <link>http://localhost:1313/demoportfolio/posts/test/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <author>jones@ek.dk (Jon Bertelsen)</author>
+      <guid>http://localhost:1313/demoportfolio/posts/test/</guid>
       <description></description>
       
     </item>

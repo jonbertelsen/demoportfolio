@@ -10,5 +10,13 @@ pageRef = "posts"
 identifier = "ZIxgIcoXld"
 weight = 2
 
+
+[[main]]
+name = "Sjov"
+url = "https://3sem.kursusmaterialer.dk/"
+pageRef = "ballade"
+identifier = "ZIxgIcoXlx"
+weight = 3
+
 [[footer]]
 none = "none"

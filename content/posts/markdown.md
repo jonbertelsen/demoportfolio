@@ -1,9 +1,10 @@
 ---
-title: Markdown
+title: Markdown for datamatikerstuderende
 categories: ["tutorials"]
 tags: ["markdown", "tutorial"]
 date: 2026-02-04
 draft: false
+weight: 4
 showauthor: true
 featureimage: "images/posts/features/markdown-logo.png"
 authors:
